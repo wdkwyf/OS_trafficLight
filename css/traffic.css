@@ -1,0 +1,184 @@
+.img {
+	background:url(../image/road.png);
+	background-repeat:no-repeat;
+	width: 1000px;
+	height: 600px;
+	background-size:100% 100%;
+	position: absolute;
+	left: 5%;
+}
+
+#car0{
+	left: 0px;
+	top: 355px;
+	position: absolute;
+}
+
+#car1{
+	left: 0px;
+	top: 315px;
+	position: absolute;
+}
+
+#car2{
+	left: 555px;
+	top: 550px;
+	position: absolute;
+}
+
+#car3{
+	left: 515px;
+	top: 550px;
+	position: absolute;
+}
+
+#car4{
+	left: 950px;
+	top: 220px;
+	position: absolute;
+}
+
+#car5{
+	left: 950px;
+	top: 265px;
+	position: absolute;
+}
+
+#car6{
+	left: 410px;
+	top: 0px;
+	position: absolute;
+}
+
+#car7{
+	left: 455px;
+	top: 0px;
+	position: absolute;
+}
+#car8{
+	left:0px;
+	top:355px;
+	position:absolute;
+}
+#car9{
+	left: 0px;
+	top: 315px;
+	position: absolute;
+}
+
+#car10{
+	left: 555px;
+	top: 550px;
+	position: absolute;
+}
+
+#car11{
+	left: 515px;
+	top: 550px;
+	position: absolute;
+}
+
+#car12{
+	left: 950px;
+	top: 220px;
+	position: absolute;
+}
+
+#car13{
+	left: 950px;
+	top: 265px;
+	position: absolute;
+}
+
+#car14{
+	left: 410px;
+	top: 0px;
+	position: absolute;
+}
+
+#car15{
+	left: 455px;
+	top: 0px;
+	position: absolute;
+}
+.roadH{
+	width: 50px;
+	height: 25px;
+}
+
+.roadV{
+	width: 25px;
+	height: 50px;
+}
+
+.normal{
+	background-color: #1EECFE;
+	/*background:url(../image/car.png);*/
+	/*background: url(b.jpg);*/
+
+}
+
+.special{
+	background-color: #FF4070;
+}
+
+#light1{
+	left: 399px;
+	top: 200px;
+	position: absolute;
+}
+#light2{
+	left: 500px;
+	top: 400px;
+	position: absolute;
+}
+
+#light3{
+	left: 395px;
+	top: 300px;
+	position: absolute;
+}
+
+#light4{
+	left: 603px;
+	top: 205px;
+	position: absolute;
+}
+
+
+.lightNS{
+	width: 100px;
+	height: 5px;
+	opacity: 0.45;
+	background-color: red;
+}
+
+.lightEW{
+	width: 5px;
+	height: 100px;
+	opacity: 0.45;
+	background-color: green;
+}
+
+.btn{
+	color: white;
+	background-color: #357ebd;
+	left: 700px;
+	top: 500px;
+	position: absolute;
+}
+
+.text{
+	font-size: 36px;
+	color:#357ebd;
+}
+
+.annotation{
+	top: 500px;
+	position: absolute;
+}
+
+.comment{
+	font-size: 15px;
+	color:#357ebd;
+}

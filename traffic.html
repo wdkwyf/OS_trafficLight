@@ -1,0 +1,63 @@
+<html lang="zh-cn">
+
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/traffic.js"></script>	
+	<link rel="stylesheet" href="css/traffic.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+<div class="img">	
+<div id="light1" class="lightNS"></div>
+<div id="light2" class="lightNS"></div>
+<div id="light3" class="lightEW"></div>
+<div id="light4" class="lightEW"></div>
+<button class = "btn btn-lg" onclick="randomStart()">Start</button>
+<div class = "text">OS project: traffic light</div>
+<h3 class = "comment">Maximum of cars is 16!</h3>
+<h3 class = "comment">It will end if 16 cars pass the cross!</h3>
+<br />
+<h3 class = "comment">@ Yufei Wu</h3>
+<div id = "car0" class = "normal roadH" onclick="carMoving(0)"></div>
+<div id = "car1" class = 'special roadH' onclick="carMoving(1)"></div>
+<div id="car2" class="normal roadV" onclick="carMoving(2)"></div>
+<div id="car3" class="special roadV" onclick="carMoving(3)"></div>
+<div id="car4" class="normal roadH" onclick="carMoving(4)"></div>
+<div id="car5" class="special roadH" onclick="carMoving(5)"></div>
+<div id="car6" class="normal roadV" onclick="carMoving(6)"></div>
+<div id="car7" class="special roadV" onclick="carMoving(7)"></div>
+<div id ="car8" class = "normal roadH" onclick="carMoving(8)"></div>
+<div id ="car9" class = 'special roadH' onclick="carMoving(9)"></div>
+<div id="car10" class="normal roadV" onclick="carMoving(10)"></div>
+<div id="car11" class="special roadV" onclick="carMoving(11)"></div>
+<div id="car12" class="normal roadH" onclick="carMoving(12)"></div>
+<div id="car13" class="special roadH" onclick="carMoving(13)"></div>
+<div id="car14" class="normal roadV" onclick="carMoving(14)"></div>
+<div id="car15" class="special roadV" onclick="carMoving(15)"></div>
+<div class="annotation">
+	<div class="row">
+		<div class="col-md-1">
+			<div class="normal roadH"></div>
+		</div>
+		<div class="col-md-2 col-md-offset-3">
+			<div class="comment">NormalCar</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-1">
+			<div class="special roadH"></div>
+		</div>
+		<div class="col-md-2 col-md-offset-3">
+			<div class="comment">SpecialCar</div>
+		</div>
+	</div>
+</div>
+
+</div>
+</body>
+
+
+</html>
