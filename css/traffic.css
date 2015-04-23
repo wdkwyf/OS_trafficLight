@@ -124,12 +124,12 @@
 
 #light1{
 	left: 399px;
-	top: 200px;
+	top: 204px;
 	position: absolute;
 }
 #light2{
 	left: 500px;
-	top: 400px;
+	top: 396px;
 	position: absolute;
 }
 
@@ -140,7 +140,7 @@
 }
 
 #light4{
-	left: 603px;
+	left: 600px;
 	top: 205px;
 	position: absolute;
 }
@@ -149,22 +149,22 @@
 .lightNS{
 	width: 100px;
 	height: 5px;
-	opacity: 0.45;
+	opacity: 0.9;
 	background-color: red;
 }
 
 .lightEW{
 	width: 5px;
 	height: 100px;
-	opacity: 0.45;
+	opacity: 0.9;
 	background-color: green;
 }
 
 .btn{
 	color: white;
 	background-color: #357ebd;
-	left: 700px;
-	top: 500px;
+	left: 680px;
+	top: 440px;
 	position: absolute;
 }
 
@@ -179,6 +179,6 @@
 }
 
 .comment{
-	font-size: 15px;
-	color:#357ebd;
+	font-size: 18px;
+	color:black;
 }
